@@ -1,8 +1,5 @@
--- Drop the table if it exists
-DROP TABLE IF EXISTS lmuraleedharanair68215.actors
-
 -- Create the table
-CREATE TABLE lmuraleedharanair68215.actors (
+CREATE TABLE actors (
   actor VARCHAR,
   actor_id VARCHAR,
   films ARRAY(ROW(
